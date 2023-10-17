@@ -1,0 +1,188 @@
+/* Tudo */
+/* Fonte */
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Crimson+Text:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  * {
+    font-family:'Roboto', sans-serif;
+  }
+
+p, li , label  {
+   color: black;
+    font-size: 18px;
+}
+
+/*Barra*/
+.navbar {
+    background-color: #1A4C8A;
+}
+
+#btn-menu {
+    background-color: #B0CBE8;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    padding: 1rem .9rem;
+}
+
+#logo {
+    width: 140px;
+}
+
+.nav-link {
+    color: white;
+}
+
+#home-menu:hover {
+    color: #B0CBE8;
+ 
+}
+#destinations-menu:hover {
+    color: #B0CBE8;
+}
+
+#promotions-menu:hover{
+    color: #B0CBE8;
+}
+
+#contact-menu:hover {
+    color: #B0CBE8;
+}
+
+/*Carrossel*/
+
+.carousel-item img {
+    height: 875px; /* Defina a altura desejada para as imagens do carrossel */
+    object-fit: cover; /* Redimensiona a imagem para preencher o espaço do contêiner */
+}
+.carousel-caption {
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 5px;
+    color: #1A4C8A;
+    border-radius: 20px;
+}
+.btn-primary {
+    background-color: #1A4C8A;
+    border-radius: 15px;
+
+}
+.btn-primary:hover {
+    background-color: #B0CBE8;
+    color: black;
+}
+
+/* Destinos mais procurados */
+
+.main-title {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+hr {
+    background-color: #1A4C8A;
+}
+
+ /* Cars destinos e promoções */
+
+.card {
+
+    border-radius: 20px;
+    border-color: #B0CBE8 ;
+}
+
+.card-img-top {
+    border-radius: 20px;
+}
+ 
+
+.btn-secondary {
+    background-color: #1A4C8A;
+    border-radius: 15px ;
+}
+
+.btn-secondary:hover {
+    background-color: #B0CBE8;
+    color: black;
+}
+
+#cardpromotions {
+    background-color: #B0CBE8;
+    color: black;
+    
+}
+
+#btnpromotions:hover {
+    background-color: white;
+    color: #1A4C8A;
+}
+
+.card-deck {
+    padding-bottom: 50px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #1A4C8A;
+}
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #B0CBE8;
+}
+
+.contact-box i {
+    color: #B0CBE8;
+    border: solid 1px #B0CBE8;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#contact-all {
+    padding-top: 50px;
+}
+
+#copy-area {
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contactfont {
+    color: white;
+}
+
+/*MODAL ESTILO*/
+
+.modal {
+     color: #1A4C8A;
+}
+
+#loginModal {
+   color: #1A4C8A;
+}
+
+#botao-cadastro {
+    color: black;
+    background-color:#B0CBE8 ;
+    
+}
+
+#botao-cadastro:hover {
+    color: white;
+    background-color:#1A4C8A ;
+    
+}
